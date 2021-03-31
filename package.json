@@ -1,0 +1,21 @@
+{
+  "name": "node-js-dataread",
+  "version": "0.0.1",
+  "description": "A first sample of the main project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "BikashM",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.10.0",
+    "@aws-sdk/client-quicksight": "^3.10.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.10.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "requirejs": "^2.3.6"
+  }
+}
